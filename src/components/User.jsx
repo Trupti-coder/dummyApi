@@ -2,20 +2,21 @@ import { useEffect, useState } from "react";
 
 function User(){
 
-    let[user,setUsers]=useState([]);
+    let[data,setData]=useState([]);
 
     async function getAllUsers(){
         let response=await fetch('https://dummyjson.com/users');
         let result=await response.json();
-        setUsers(result.users);
-
-        console.log(user);
+        setData(result.data);
 
     };
+
+    //console.log(data);
 
     useEffect(()=>{
 
         getAllUsers();
+        console.log(data);
 
     },[])
 

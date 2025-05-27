@@ -44,6 +44,9 @@ function User(){
                         <td></td>
                         <td></td>
                         <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
 
                     </tr>)
                 })

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function User(){
 
@@ -13,7 +13,11 @@ function User(){
 
     };
 
-    
+    useEffect(()=>{
+
+        getAllUsers();
+
+    },[])
 
 
     return(

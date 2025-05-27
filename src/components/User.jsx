@@ -40,10 +40,10 @@ function User(){
                 data.map((x)=>{
                     return(<tr key={x.id}>
 
-                        <td>{}</td>
-                        <td>{}</td>
-                        <td>{}</td>
-                        <td>{}</td>
+                        <td>{x.id}</td>
+                        <td>{x.firstName}</td>
+                        <td>{x.lastName}</td>
+                        <td>{x.maidenName}</td>
                         <td>{}</td>
                         <td>{}</td>
                         <td>{}</td>

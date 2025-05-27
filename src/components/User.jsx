@@ -26,6 +26,17 @@ function User(){
     return(
         
         <>
+        <table>
+            <tr>
+                <td>Id</td>
+                <td>FirstName</td>
+                <td>LastName</td>
+                <td>MaidenName</td>
+                <td>Age</td>
+                <td>Gender</td>
+                <td>BloodGroup</td>
+            </tr>
+        </table>
 
         </>
     );

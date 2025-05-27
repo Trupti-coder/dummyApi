@@ -13,7 +13,6 @@ function User(){
 
     };
 
-  
 
     useEffect(()=>{
 
@@ -22,11 +21,13 @@ function User(){
         
     },[]);
 
+    
+
 
     return(
         
         <>
-        <table>
+        <table border='1'>
             <tr>
                 <td>Id</td>
                 <td>FirstName</td>
@@ -47,6 +48,7 @@ function User(){
                         <td>{x.age}</td>
                         <td>{x.gender}</td>
                         <td>{x.bloodGroup}</td>
+                        <td onClick={handleDeleteRow}>Remove</td>
 
                     </tr>)
                 })

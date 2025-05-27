@@ -44,9 +44,9 @@ function User(){
                         <td>{x.firstName}</td>
                         <td>{x.lastName}</td>
                         <td>{x.maidenName}</td>
-                        <td>{}</td>
-                        <td>{}</td>
-                        <td>{}</td>
+                        <td>{x.age}</td>
+                        <td>{x.gender}</td>
+                        <td>{x.bloodGroup}</td>
 
                     </tr>)
                 })

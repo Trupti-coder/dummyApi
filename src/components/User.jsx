@@ -36,6 +36,13 @@ function User(){
                 <td>Gender</td>
                 <td>BloodGroup</td>
             </tr>
+            {
+                data.map((x)=>{
+                    return(<tr key={x.id}>
+
+                    </tr>)
+                })
+            }
         </table>
 
         </>

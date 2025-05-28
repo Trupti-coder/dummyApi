@@ -21,8 +21,10 @@ function User(){
         
     },[]);
 
-    function handleDeleteRow(){
+    function handleDeleteRow(id){
+
         
+
     }
 
 
@@ -50,7 +52,7 @@ function User(){
                         <td>{x.age}</td>
                         <td>{x.gender}</td>
                         <td>{x.bloodGroup}</td>
-                        <td onClick={handleDeleteRow}>Remove</td>
+                        <td onClick={()=>handleDeleteRow(x.id)}>Remove</td>
 
                     </tr>)
                 })

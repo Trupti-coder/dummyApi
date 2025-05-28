@@ -23,7 +23,9 @@ function User(){
 
     function handleDeleteRow(id){
 
-        
+        setData(data.filter(User=>User.id!=id));
+
+
 
     }
 

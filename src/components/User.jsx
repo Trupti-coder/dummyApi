@@ -121,7 +121,7 @@ function User(){
                 <input type="text" placeholder="Enter MaidenName " value={maidenName} onChange={(event)=>setMaidenName(event.target.value)} />
             </div>
             <div>
-                <input type="number" placeholder="Enter Age" value={age} />
+                <input type="number" placeholder="Enter Age" value={age} onChange={(event)=>setAge(event.target.value)} />
             </div>
             <div>
                 <input type="text" placeholder="Enter Gender" value={gender} />

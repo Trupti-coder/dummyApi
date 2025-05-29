@@ -121,13 +121,13 @@ function User(){
                 <input type="text" placeholder="Enter MaidenName " value={maidenName} />
             </div>
             <div>
-                <input type="number" placeholder="Enter Age" />
+                <input type="number" placeholder="Enter Age" value={age} />
             </div>
             <div>
-                <input type="text" placeholder="Enter Gender" />
+                <input type="text" placeholder="Enter Gender" value={gender} />
             </div>
             <div>
-                <input type="text" placeholder="Enter BloodGroup" />
+                <input type="text" placeholder="Enter BloodGroup" value={bloodGroup} />
             </div>
             <button type="submit">Submit</button>
 

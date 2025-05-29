@@ -106,10 +106,10 @@ function User(){
                 <input type="text" placeholder="Enter MaidenName " />
             </div>
             <div>
-                <input type="number" />
+                <input type="number" placeholder="Enter Age" />
             </div>
             <div>
-                <input type="text" />
+                <input type="text" placeholder="Enter Gender" />
             </div>
             <div>
                 <input type="text" />

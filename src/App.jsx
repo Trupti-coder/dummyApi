@@ -7,6 +7,7 @@ function App() {
   return (
     <>
      <User />
+     <hr></hr>
     </>
   )
 }

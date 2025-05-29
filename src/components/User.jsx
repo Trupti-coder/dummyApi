@@ -124,10 +124,10 @@ function User(){
                 <input type="number" placeholder="Enter Age" value={age} onChange={(event)=>setAge(event.target.value)} />
             </div>
             <div>
-                <input type="text" placeholder="Enter Gender" value={gender} />
+                <input type="text" placeholder="Enter Gender" value={gender} onChange={(event)=>setGender(event.target.value)} />
             </div>
             <div>
-                <input type="text" placeholder="Enter BloodGroup" value={bloodGroup} />
+                <input type="text" placeholder="Enter BloodGroup" value={bloodGroup} onChange={(event)=>setBloodGroup(event.target.value)} />
             </div>
             <button type="submit">Submit</button>
 

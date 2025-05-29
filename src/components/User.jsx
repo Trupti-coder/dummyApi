@@ -60,6 +60,12 @@ function User(){
                 })
             }
         </table>
+        <h3>Pagination</h3>
+        <ul>
+            <li>First List</li>
+            <li>Second List</li>
+            <li>Third List</li>
+        </ul>
 
         </>
     );

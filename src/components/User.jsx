@@ -5,7 +5,7 @@ function User(){
     let[data,setData]=useState([]);
 
     async function getAllUsers(){
-        let response=await fetch('https://dummyjson.com/users');
+        let response=await fetch('https://dummyjson.com/users?limit='+lm+'&skip='+sk);
         let result=await response.json();
         console.log(result.users);
          setData(result.users);

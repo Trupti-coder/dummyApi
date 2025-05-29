@@ -112,7 +112,7 @@ function User(){
         <h2>Add New User</h2>
         <form onSubmit={handleSubmit}>
             <div>
-                <input type="text" placeholder="Enter LastName" value={lastName} />
+                <input type="text" placeholder="Enter LastName" value={lastName} onChange={(event)=>setLastName(event.target.value)} />
             </div>
             <div>
                 <input type="text" placeholder="Enter FirstName" value={firstName} />

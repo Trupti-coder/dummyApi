@@ -66,6 +66,7 @@ function User(){
     return(
         
         <>
+        
         <table border='1'>
             <tr>
                 <td>Id</td>
@@ -93,6 +94,23 @@ function User(){
                 })
             }
         </table>
+        <h2>Add New User</h2>
+        <form onSubmit={handleSubmit}>
+            <div>
+                <input type="text" />
+            </div>
+            <div>
+                <input type="text" />
+            </div>
+            <div>
+                <input type="text" />
+            </div>
+            <div>
+                <input type="number" />
+            </div>
+
+        </form>
+        <hr></hr>
         <h3>Pagination</h3>
         <ul onClick={funClick}>
             <li><a href="">First_List</a></li>

@@ -11,7 +11,16 @@ function User(){
         var lm=0;
         var sk=0;
 
-        if(x===)
+        if(x===First_List){
+            lm=10,
+            sk=0,
+            getAllUsers(lm,sk);
+        }
+        else if(x===Second_List){
+            lm=10,
+            sk=10,
+            getAllUsers(lm,sk);
+        }
     }
 
     let[data,setData]=useState([]);

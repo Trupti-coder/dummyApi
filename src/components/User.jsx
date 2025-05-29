@@ -31,7 +31,9 @@ function User(){
             sk=0,
             getAllUsers(lm,sk);
         }
-    }
+    };
+
+
 
     let[data,setData]=useState([]);
 
@@ -47,7 +49,7 @@ function User(){
 
     useEffect(()=>{
 
-        getAllUsers();
+        getAllUsers(10,0);
        
         
     },[]);

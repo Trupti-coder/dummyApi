@@ -21,6 +21,11 @@ function User(){
             sk=10,
             getAllUsers(lm,sk);
         }
+        else if(x===Third_List){
+            lm=10,
+            sk=20,
+            getAllUsers(lm,sk);
+        }
     }
 
     let[data,setData]=useState([]);

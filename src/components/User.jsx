@@ -26,6 +26,11 @@ function User(){
             sk=20,
             getAllUsers(lm,sk);
         }
+        else{
+            lm=10,
+            sk=0,
+            getAllUsers(lm,sk);
+        }
     }
 
     let[data,setData]=useState([]);

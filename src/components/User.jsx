@@ -118,7 +118,7 @@ function User(){
                 <input type="text" placeholder="Enter FirstName" value={firstName} />
             </div>
             <div>
-                <input type="text" placeholder="Enter MaidenName " />
+                <input type="text" placeholder="Enter MaidenName " value={maidenName} />
             </div>
             <div>
                 <input type="number" placeholder="Enter Age" />

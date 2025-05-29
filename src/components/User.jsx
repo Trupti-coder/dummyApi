@@ -8,7 +8,7 @@ function User(){
     let[lastName,setLastName]=useState('');
     let[age,setAge]=useState('');
     let[gender,setGender]=useState('');
-    
+    let[bloodGroup,setBloodGroup]=useState('');
 
 
 
@@ -112,10 +112,10 @@ function User(){
         <h2>Add New User</h2>
         <form onSubmit={handleSubmit}>
             <div>
-                <input type="text" placeholder="Enter LastName" />
+                <input type="text" placeholder="Enter LastName" value={lastName} />
             </div>
             <div>
-                <input type="text" placeholder="Enter FirstName" />
+                <input type="text" placeholder="Enter FirstName" value={firstName} />
             </div>
             <div>
                 <input type="text" placeholder="Enter MaidenName " />

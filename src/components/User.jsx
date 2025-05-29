@@ -82,8 +82,8 @@ function User(){
                     return(<tr key={x.id}>
 
                         <td>{x.id}</td>
-                        <td>{x.firstName}</td>
                         <td>{x.lastName}</td>
+                        <td>{x.firstName}</td>
                         <td>{x.maidenName}</td>
                         <td>{x.age}</td>
                         <td>{x.gender}</td>
@@ -97,10 +97,10 @@ function User(){
         <h2>Add New User</h2>
         <form onSubmit={handleSubmit}>
             <div>
-                <input type="text" placeholder="Enter FirstName" />
+                <input type="text" placeholder="Enter LastName" />
             </div>
             <div>
-                <input type="text" placeholder="Enter LastName" />
+                <input type="text" placeholder="Enter FirstName" />
             </div>
             <div>
                 <input type="text" placeholder="Enter " />

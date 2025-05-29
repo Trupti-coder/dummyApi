@@ -8,6 +8,10 @@ function User(){
         event.preventDefault();
 
         let x=parseInt(event.target.textContent);
+        var lm=0;
+        var sk=0;
+
+        if(x===)
     }
 
     let[data,setData]=useState([]);
@@ -70,9 +74,9 @@ function User(){
         </table>
         <h3>Pagination</h3>
         <ul onClick={funClick}>
-            <li><a href="">First List</a></li>
-            <li><a href="">Second List</a></li>
-            <li><a href="">Third List</a></li>
+            <li><a href="">First_List</a></li>
+            <li><a href="">Second_List</a></li>
+            <li><a href="">Third_List</a></li>
         </ul>
 
         </>

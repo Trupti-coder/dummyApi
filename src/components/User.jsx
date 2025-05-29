@@ -114,7 +114,7 @@ function User(){
             <div>
                 <input type="text" />
             </div>
-            <button></button>
+            <button type="submit">Submit</button>
 
         </form>
         <hr></hr>

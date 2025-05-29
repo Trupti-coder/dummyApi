@@ -70,8 +70,8 @@ function User(){
         <table border='1'>
             <tr>
                 <td>Id</td>
-                <td>FirstName</td>
                 <td>LastName</td>
+                <td>FirstName</td>
                 <td>MaidenName</td>
                 <td>Age</td>
                 <td>Gender</td>
@@ -103,7 +103,7 @@ function User(){
                 <input type="text" placeholder="Enter LastName" />
             </div>
             <div>
-                <input type="text" />
+                <input type="text" placeholder="Enter " />
             </div>
             <div>
                 <input type="number" />

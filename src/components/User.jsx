@@ -62,9 +62,9 @@ function User(){
         </table>
         <h3>Pagination</h3>
         <ul onClick={funClick}>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+            <li><a href="">First List</a></li>
+            <li><a href="">Second List</a></li>
+            <li><a href="">Third List</a></li>
         </ul>
 
         </>

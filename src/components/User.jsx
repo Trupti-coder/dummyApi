@@ -112,7 +112,7 @@ function User(){
                 <input type="text" placeholder="Enter Gender" />
             </div>
             <div>
-                <input type="text" />
+                <input type="text" placeholder="Enter BloodGroup" />
             </div>
             <button type="submit">Submit</button>
 

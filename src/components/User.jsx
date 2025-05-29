@@ -3,6 +3,15 @@ import { useEffect, useState } from "react";
 function User(){
 
 
+    let[firstName,setFirstName]=useState('');
+    let[maidenName,setMaidenName]=useState('');
+    let[lastName,setLastName]=useState('');
+    let[age,setAge]=useState('');
+    let[gender,setGender]=useState('');
+    
+
+
+
     function funClick(event){
 
         event.preventDefault();

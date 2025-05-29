@@ -108,6 +108,13 @@ function User(){
             <div>
                 <input type="number" />
             </div>
+            <div>
+                <input type="text" />
+            </div>
+            <div>
+                <input type="text" />
+            </div>
+            <button></button>
 
         </form>
         <hr></hr>

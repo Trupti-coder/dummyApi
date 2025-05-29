@@ -62,7 +62,9 @@ function User(){
 
     }
 
-    function handleSubmit(){
+    function handleSubmit(event){
+
+        event.preventDefault();
 
     }
 

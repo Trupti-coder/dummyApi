@@ -97,10 +97,10 @@ function User(){
         <h2>Add New User</h2>
         <form onSubmit={handleSubmit}>
             <div>
-                <input type="text" />
+                <input type="text" placeholder="Enter FirstName" />
             </div>
             <div>
-                <input type="text" />
+                <input type="text" placeholder="Enter LastName" />
             </div>
             <div>
                 <input type="text" />

@@ -2,6 +2,14 @@ import { useEffect, useState } from "react";
 
 function User(){
 
+
+    function funClick(event){
+
+        event.preventDefault();
+
+        let x=parseInt(event.target.textContent);
+    }
+
     let[data,setData]=useState([]);
 
     async function getAllUsers(){

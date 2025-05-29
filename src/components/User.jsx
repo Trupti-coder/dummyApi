@@ -11,17 +11,17 @@ function User(){
         var lm=0;
         var sk=0;
 
-        if(x===First_List){
+        if(x===1){
             lm=10,
             sk=0,
             getAllUsers(lm,sk);
         }
-        else if(x===Second_List){
+        else if(x===2){
             lm=10,
             sk=10,
             getAllUsers(lm,sk);
         }
-        else if(x===Third_List){
+        else if(x===3){
             lm=10,
             sk=20,
             getAllUsers(lm,sk);
@@ -59,6 +59,10 @@ function User(){
         setData(data.filter(User=>User.id!=id));
 
 
+
+    }
+
+    function handleSubmit(){
 
     }
 
@@ -120,9 +124,9 @@ function User(){
         <hr></hr>
         <h3>Pagination</h3>
         <ul onClick={funClick}>
-            <li><a href="">First_List</a></li>
-            <li><a href="">Second_List</a></li>
-            <li><a href="">Third_List</a></li>
+            <li><a href="">1</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
         </ul>
 
         </>

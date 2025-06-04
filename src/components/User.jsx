@@ -90,6 +90,8 @@ const[date,setDate]=useState([]);
 
         setFirstName('');
         setMaidenName('');
+        setLastName('');
+        setAge('');
 
     }
 

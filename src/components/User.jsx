@@ -92,8 +92,10 @@ const[date,setDate]=useState([]);
         setMaidenName('');
         setLastName('');
         setAge('');
+        setGender('');
+        setBloodGroup('');
 
-    }
+    };
 
 
     return(

@@ -81,7 +81,10 @@ const[date,setDate]=useState([]);
             firstName,
             maidenName,
             lastName,
-        }
+            age,
+            gender,
+            bloodGroup
+        };
 
     }
 

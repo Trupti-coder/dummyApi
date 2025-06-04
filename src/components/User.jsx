@@ -86,6 +86,11 @@ const[date,setDate]=useState([]);
             bloodGroup
         };
 
+        setData([...data,newUser]);
+
+        setFirstName('');
+        setMaidenName('');
+
     }
 
 

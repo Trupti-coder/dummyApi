@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 function User(){
 
-
+const[date,setDate]=useState([]);
     let[firstName,setFirstName]=useState('');
     let[maidenName,setMaidenName]=useState('');
     let[lastName,setLastName]=useState('');

@@ -75,6 +75,14 @@ const[date,setDate]=useState([]);
 
         event.preventDefault();
 
+        const newUser={
+            id:data.length?data[data.length-1].id+1:1,
+
+            firstName,
+            maidenName,
+            lastName,
+        }
+
     }
 
 

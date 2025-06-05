@@ -17,9 +17,9 @@ const Product = () => {
 
     <table>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Description</td>
             <td></td>
             <td></td>
             <td></td>

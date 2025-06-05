@@ -7,6 +7,7 @@ const Product = () => {
     async function getAllProduct(){
 
         let response=await fetch('');
+        let result=response.json();
         
         
     }

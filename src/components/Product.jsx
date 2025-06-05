@@ -22,7 +22,9 @@ const Product = () => {
             <td>Description</td>
             <td>Category</td>
             <td>Price</td>
-            <td></td>
+            <td>rating</td>
+            <td>Stock</td>
+            <td>Tag</td>
         </tr>
     </table>
     </>

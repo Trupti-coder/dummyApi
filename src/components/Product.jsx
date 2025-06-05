@@ -8,12 +8,20 @@ const Product = () => {
 
         let response=await fetch('');
         let result=response.json();
-        
+
         
     }
   return (
     <>
     <h3>Product </h3>
+
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
     </>
   )
 }

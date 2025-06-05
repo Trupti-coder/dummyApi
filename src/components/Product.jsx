@@ -20,8 +20,8 @@ const Product = () => {
             <td>Id</td>
             <td>Title</td>
             <td>Description</td>
-            <td></td>
-            <td></td>
+            <td>Category</td>
+            <td>Price</td>
             <td></td>
         </tr>
     </table>

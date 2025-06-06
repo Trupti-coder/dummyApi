@@ -37,8 +37,14 @@ const Product = () => {
             <td>Tag</td>
         </tr>
         {
-          data.map(()=>{
-           
+          data.map((x)=>{
+           return(
+            <tr key={x.index}>
+
+              
+
+            </tr>
+           )
           })
         }
     </table>

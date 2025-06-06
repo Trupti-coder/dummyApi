@@ -47,9 +47,9 @@ const Product = () => {
               <td>{x.category}</td>
               <td>{x.price}</td>
               <td>{x.rating}</td>
-              <td>{}</td>
-              <td>{}</td>
-              <td>{}</td>
+              <td>{x.stock}</td>
+              <td>{x.tag}</td>
+              
 
             </tr>
            )

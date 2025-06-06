@@ -15,10 +15,12 @@ const Product = () => {
     }
 
     useEffect(()=>{
-      
+
       getAllProduct();
 
     },[]);
+
+
   return (
     <>
     <h3>Product </h3>
@@ -34,6 +36,11 @@ const Product = () => {
             <td>Stock</td>
             <td>Tag</td>
         </tr>
+        {
+          data.map(()=>{
+           
+          })
+        }
     </table>
     </>
   )

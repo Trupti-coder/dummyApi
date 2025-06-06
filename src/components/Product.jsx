@@ -41,10 +41,10 @@ const Product = () => {
            return(
             <tr key={x.index}>
 
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td>{}</td>
+              <td>{}</td>
+              <td>{}</td>
+              <td>{}</td>
               <td></td>
               <td></td>
               <td></td>

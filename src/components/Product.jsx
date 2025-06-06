@@ -43,10 +43,10 @@ const Product = () => {
 
               <td>{x.id}</td>
               <td>{x.title}</td>
-              <td>{}</td>
-              <td>{}</td>
-              <td>{}</td>
-              <td>{}</td>
+              <td>{x.description}</td>
+              <td>{x.category}</td>
+              <td>{x.price}</td>
+              <td>{x.rating}</td>
               <td>{}</td>
               <td>{}</td>
               <td>{}</td>

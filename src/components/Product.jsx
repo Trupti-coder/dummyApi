@@ -49,6 +49,8 @@ const Product = () => {
               <td>{x.rating}</td>
               <td>{x.stock}</td>
               <td>{x.tag}</td>
+              <td><img src='x.thumbnail'></img></td>
+              <td></td>
               
 
             </tr>

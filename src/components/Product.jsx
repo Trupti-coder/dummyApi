@@ -45,6 +45,9 @@ const Product = () => {
               <td></td>
               <td></td>
               <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
 
             </tr>
            )

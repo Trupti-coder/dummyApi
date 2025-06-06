@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Product = () => {
 
@@ -13,6 +13,12 @@ const Product = () => {
 
         
     }
+
+    useEffect(()=>{
+      
+      getAllProduct();
+
+    },[]);
   return (
     <>
     <h3>Product </h3>

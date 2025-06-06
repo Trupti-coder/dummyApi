@@ -39,10 +39,10 @@ const Product = () => {
         {
           data.map((x)=>{
            return(
-            <tr key={x.index}>
+            <tr key={x.id}>
 
-              <td>{}</td>
-              <td>{}</td>
+              <td>{x.id}</td>
+              <td>{x.title}</td>
               <td>{}</td>
               <td>{}</td>
               <td>{}</td>

@@ -50,7 +50,7 @@ const Product = () => {
               <td>{x.stock}</td>
               <td>{x.tag}</td>
               <td><img src='x.thumbnail'></img></td>
-              <td></td>
+              <td onClick={funDeleteRow}>Remove</td>
               
 
             </tr>

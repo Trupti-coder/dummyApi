@@ -20,8 +20,9 @@ const Product = () => {
 
     },[]);
 
-    function funDeleteRow(){
-      
+    function funDeleteRow(id){
+      setData(data.filter(user=>user.id!=id))
+
     }
 
 
@@ -62,6 +63,14 @@ const Product = () => {
           })
         }
     </table>
+
+    <div>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </div>
     </>
   )
 }

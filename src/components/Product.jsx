@@ -20,6 +20,10 @@ const Product = () => {
 
     },[]);
 
+    function funDeleteRow(){
+      
+    }
+
 
   return (
     <>

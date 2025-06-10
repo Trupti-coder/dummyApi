@@ -45,6 +45,10 @@ const Product = () => {
             <td>rating</td>
             <td>Stock</td>
             <td>Tag</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
         {
           data.map((x)=>{

@@ -32,11 +32,6 @@ const Product = () => {
 
     }
 
-    function funClick(){
-
-      
-    }
-
 
   return (
     <>

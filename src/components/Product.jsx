@@ -8,13 +8,13 @@ const Product = () => {
 
 
 
-      
+
     }
 
     async function getAllProduct(){
 
         let response=await fetch('https://dummyjson.com/products');
-        let result=response.json();
+        let result= await response.json();
         console.log(result.products);
         setData(result.products);
 

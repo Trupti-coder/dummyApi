@@ -4,12 +4,7 @@ const Product = () => {
 
     let[data,setData]=useState([]);
 
-    function funClick(){
-
-
-
-
-    }
+  
 
     async function getAllProduct(){
 
@@ -72,13 +67,7 @@ const Product = () => {
         }
     </table>
 
-    <div>
-      <ul onClick={funClick}>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-      </ul>
-    </div>
+    
     </>
   )
 }

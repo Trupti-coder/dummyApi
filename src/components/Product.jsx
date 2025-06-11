@@ -4,6 +4,13 @@ const Product = () => {
 
     let[data,setData]=useState([]);
 
+    function funClick(){
+
+
+
+      
+    }
+
     async function getAllProduct(){
 
         let response=await fetch('https://dummyjson.com/products');

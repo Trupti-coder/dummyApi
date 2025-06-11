@@ -1,4 +1,5 @@
 import './App.css'
+import Product from './components/Product'
 import User from './components/User'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
      <User />
      <hr></hr>
+     <Product />
     </>
   )
 }

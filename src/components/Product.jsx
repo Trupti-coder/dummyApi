@@ -62,7 +62,7 @@ const Product = () => {
               <td>{x.rating}</td>
               <td>{x.stock}</td>
               <td>{x.tag}</td>
-              <td><img src={x.thumbnail} ></img></td>
+              <td><img src={x.thumbnail} alt='product image'></img></td>
               <td onClick={funDeleteRow}>Remove</td>
               
 
